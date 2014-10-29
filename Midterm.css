@@ -1,0 +1,38 @@
+html {
+	font-family: 'Ubuntu', sans-serif;
+	src:local("Ubuntu, sans-serif"); url(https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Ubuntu)
+	font-size: 100%;
+	line-height: 2;
+	background-color: #e2eff3;
+	background-image: none;
+	background-image: url(http://podcollective.com/assets/phong/world.patterns/egypt-V1/EGYPT-C-PATTERN.png)
+	
+}
+#container{
+	background-color: rgba(146, 180,141, 0.85);
+	margin: 10% auto;
+	max-width: 100%;
+	display: block;
+	font-size: 1.5em;
+	padding: 0 50px;
+	text-align: center;
+}
+#logo{
+	width: 95px;
+	height: 45px;
+	padding-top: 20px;
+	padding-left: 20px;
+	float: left;
+}
+#logo img{
+	max-width: 150%;
+	height: auto;
+
+}
+#header{
+
+	
+}
+#text{
+	color:#e2eff3;
+}

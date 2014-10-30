@@ -9,18 +9,19 @@ html {
 	
 }
 #container{
-	background-color: rgba(146, 180,141, 0.85);
+	background-color: rgba(146, 180,141, 0.95);
 	margin: 10% auto;
 	max-width: 100%;
 	display: block;
 	font-size: 1.5em;
 	padding: 0 50px;
 	text-align: center;
+
 }
 #logo{
 	width: 95px;
 	height: 45px;
-	padding-top: 20px;
+	padding-top: 60px;
 	padding-left: 20px;
 	float: left;
 }
@@ -29,10 +30,105 @@ html {
 	height: auto;
 
 }
-#header{
+#header-menu{
+	height: 70px;
+	padding-top: 20px;
+	width: 1024px;
+	margin: 0px auto;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;	
+}
+#home{
+	float: left;
+	font-weight: 700;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	color: #e4d477;
+	float: left;
+	padding: 25px;
+	display: inline-block;
+}
 
-	
+a:hover {
+	display: inline-block;
+	text-decoration: none;
+	color: #FFF;
+	padding: 8px 16px;
+	margin: 0px 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFF;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	letter-spacing: 1px;
+	border-image: linear-gradient(to right, #FFF 15%, transparent 30%, transparent 70%, #FFF 85%) 1 1 1 1;
+	transition: all 0.2s ease 0s;
+}
+#portfolio:nth-child(2){
+	float: right;
+	font-weight: 700;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	color: #e4d477;
+	float: left;
+	padding: 25px;
+}
+#portfolio:hover {
+	color: #6ef5d5;
+}
+#services:nth-child(3){
+	float: right;
+	font-weight: 700;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	color: #e4d477;
+	float: left;
+	padding: 25px;
+}
+#services:nth-child(3):hover{
+	color:#6ef5d5;
 }
 #text{
-	color:#e2eff3;
+	color:#0b56ab;
+}
+#text span{
+	font-weight: 700;
+}
+#text {
+    animation: 3s ease 0s normal none 1 cssAnimation;
+}
+@keyframes cssAnimation {
+0% {
+    transform: rotate(0deg) scale(0.1) skew(1deg) translate(0px);
+}
+100% {
+    transform: rotate(0deg) scale(1.009) skew(0deg) translate(0px);
+}
+
+@-webkit-keyframes home {
+50% {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+100% {
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+}
+@keyframes home {
+50% {
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+100% {
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+}
 }

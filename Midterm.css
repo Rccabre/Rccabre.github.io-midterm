@@ -1,134 +1,78 @@
-html {
-	font-family: 'Ubuntu', sans-serif;
-	src:local("Ubuntu, sans-serif"); url(https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Ubuntu)
-	font-size: 100%;
-	line-height: 2;
-	background-color: #e2eff3;
-	background-image: none;
-	background-image: url(http://podcollective.com/assets/phong/world.patterns/egypt-V1/EGYPT-C-PATTERN.png)
-	
-}
-#container{
-	background-color: rgba(146, 180,141, 0.95);
-	margin: 10% auto;
-	max-width: 100%;
-	display: block;
-	font-size: 1em;
-	padding: 0 50px;
-	text-align: center;
+<!DOCTYPE html>
+<html>
+  <head>
+  	 <meta charset="utf-8">
+  	 <title>Portfolio</title>
+  	 <link rel="stylesheet" type="text/css" href="Midterm.css"/>
+  	 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+     <div id="mobile_menu_wrapper">
+       <div id="line">
+          <span style="width:3em; height:3.5em; float:right; padding-left:.5em; padding-top:.5em;">
+            <a onclick="toggle_visibility('mobile_menu');">
+              <img src="threelinesmenu.png"></img>
+            </a>
+          </span>
+      </div>
+    </div>
+      <div id="mobile_logo">
+          <a class="logo" href="Midterm.html">
+            <img src="logo.png">
+          </a>
+      </div>
+<div id="mobile_menu" style="display:block;">
+  <nav>
+    <ul>
+      <li>
+        <a herf="Midterm.html">HOME</a>
+      </li>
+    </ul>
+    </nav>
+  </div>
 
-}
-#logo{
-	width: 95px;
-	height: 45px;
-	padding-top: 60px;
-	padding-left: 20px;
-	float: left;
-}
-#logo img{
-	max-width: 150%;
-	height: auto;
-
-}
-#header-menu{
-	height: 70px;
-	padding-top: 20px;
-	width: 1024px;
-	margin: 0px auto;
-	text-decoration: none;
-	display: inline-block;
-	position: relative;	
-}
-#home{
-	float: left;
-	font-weight: 700;
-	height: 60px;
-	margin: 0;
-	padding: 0;
-	color: #e4d477;
-	float: left;
-	padding: 25px;
-	display: inline-block;
-}
-
-a:hover {
-	display: inline-block;
-	text-decoration: none;
-	color: #FFF;
-	padding: 8px 16px;
-	margin: 0px 10px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #FFF;
-	-moz-border-top-colors: none;
-	-moz-border-right-colors: none;
-	-moz-border-bottom-colors: none;
-	-moz-border-left-colors: none;
-	letter-spacing: 1px;
-	border-image: linear-gradient(to right, #FFF 15%, transparent 30%, transparent 70%, #FFF 85%) 1 1 1 1;
-	transition: all 0.2s ease 0s;
-}
-#portfolio:nth-child(2){
-	float: right;
-	font-weight: 700;
-	height: 60px;
-	margin: 0;
-	padding: 0;
-	color: #e4d477;
-	float: left;
-	padding: 25px;
-}
-#portfolio:hover {
-	color: #6ef5d5;
-}
-#services:nth-child(3){
-	float: right;
-	font-weight: 700;
-	height: 60px;
-	margin: 0;
-	padding: 0;
-	color: #e4d477;
-	float: left;
-	padding: 25px;
-}
-#services:nth-child(3):hover{
-	color:#6ef5d5;
-}
-#text{
-	color:#0b56ab;
-}
-#text span{
-	font-weight: 700;
-}
-#text {
-    animation: 3s ease 0s normal none 1 cssAnimation;
-}
-@keyframes cssAnimation {
-0% {
-    transform: rotate(0deg) scale(0.1) skew(1deg) translate(0px);
-}
-100% {
-    transform: rotate(0deg) scale(1.009) skew(0deg) translate(0px);
-}
-
-@-webkit-keyframes home {
-50% {
--webkit-transform: scale(1.2);
-transform: scale(1.2);
-}
-100% {
--webkit-transform: scale(1);
-transform: scale(1);
-}
-}
-@keyframes home {
-50% {
--webkit-transform: scale(1.2);
-transform: scale(1.2);
-}
-100% {
--webkit-transform: scale(1);
-transform: scale(1);
-}
-}
-}
+<div id="wrapper">
+    	 <div id="container">
+    	 		<div id="logo">
+             <a href"Midterm.html">
+    	 		      <img src="logo.png"></img>
+             </a>
+    	 	  </div>
+          <div id="header-menu">
+  			       	  <a href="home">HOME</a>
+  			       	  <a href="portfolio">PORTFOLIO</a>
+  			       	  <a href="services">SERVICES</a>
+  			 </div>
+         	    <div id="text">
+               		 <h1>ROBERTO CABRERA</h1>
+                      <p class="tagline">
+                      Graphic Artist • Web Designer</p>
+               </div> 
+      </div>
+          <div class="container1">
+                <div class="portfolio">  
+                 <div class="block img-right">              
+                    <div class="col 1of2">
+                        <h2>
+                          IL NASO WINE STORE AND BRANDING PACKAGING<br>
+                          <p>Il NASO is an educational wine concept that teaches and guides you throughout your wine shopping experi- ence. We have weekly wine tastings, where you will learn the basics of how to recognize key characteristics, like if a bottle is corked. Additionally, in store we have food and wine pairing guides and a private room devot- ed to a diversity of wine-related classes, spirits tutorials, and wine and food events.</p>
+                          <p>For this company I have to fashion their main logo and everything that is incorporated with their marketing and branding strategy, including their stationary design and the vision of their events and showcases. Also, for the events I am responsible for designing a wine box to place various wine bottles inside to be given out as gifts.
+                          </p>
+                        </h2>
+                      </div>
+                        <div class="col size1of2">
+                          <img src="ilnaso.png"></img>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          <div id="container3">
+               <div class="footer">
+                    646.305.167*</br>
+                    Roberto Cabrera</br>
+                    Graphic and Web Designer<br>
+                    Copy Wright 2014
+              </div>
+          </div>
+    </div>
+  </body>
